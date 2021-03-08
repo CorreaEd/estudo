@@ -6,7 +6,9 @@
 		<title> Receitando</title>
 	</head>
 	<link rel ="stylesheet" type="text/css" href="estilo.css"/>
+	<script type="text/javascript" src="script.js"></script>
 	<body>
+		<!--Menu-->
 		<nav>
 		  <ul class="menu">
 			<li><a href="#">Bolos e Tortas</a></li>
@@ -20,25 +22,36 @@
 				<li><a href="#">Contato</a></li>
 			</ul>
 		</nav>
-		<div class="galeria">
-		  <a target="_blank" href="prato1.jpeg">
-			<img src="prato1.jpeg" alt="prato1">
-		  </a>
+
+		<!--Galeria-->
+		<section class="container gallery-container">
+		<div class="mySlides">
+                <div class="numbertext">01 / 04</div>
+                <img class="imgslide" src="prato1.jpeg" alt="Prato 1"/>
+                <div class="text">Texto</div>
 		</div>
-		<div class="galeria">
-		  <a target="_blank" href="prato2.jpeg">
-			<img src="prato2.jpeg" alt="prato2" width="600" height="400">
-		  </a>
+		<div class="mySlides">
+                <div class="numbertext">02 / 04</div>
+                <img class="imgslide" src="prato2.jpeg" alt="Prato 2"/>
+                <div class="text">Texto</div>
 		</div>
-		<div class="galeria">
-		  <a target="_blank" href="prato3.jpeg">
-			<img src="prato3.jpeg" alt="prato3" width="600" height="400">
-		  </a>
+		<div class="mySlides">
+                <div class="numbertext">03 / 04</div>
+                <img class="imgslide" src="prato3.jpeg" alt="Prato 3"/>
+                <div class="text">Texto</div>
 		</div>
-		<div class="galeria">
-		  <a target="_blank" href="prato4.jpeg">
-			<img src="prato4.jpeg" alt="prato4" width="600" height="400">
-		  </a>
-		</div>
+		<div class="mySlides">
+
+                <div class="numbertext">04 / 04</div>
+                <img class="imgslide" src="prato4.jpeg" alt="Prato 4"/>
+                <div class="text">Texto</div>
+        </div>
+
+		<!--Navegação-->
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+        </section>
+
 	</body>
 </html>
